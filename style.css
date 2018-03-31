@@ -1,0 +1,166 @@
+/*!
+ * Power by webisworld.com v1.0.0
+ * Copyright 2018 Chetan & Team
+ * Skill India Theme v1.0.0
+ */
+ 
+ /*	Set Default Properties*/
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/*		Start of Standar Theme CSS*/
+nav,.footer-content {
+
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2f4066),color-stop(100%,#192135));
+}
+nav a:hover{
+	
+	color: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2f4066),color-stop(100%,#192135));;
+}
+/* End of Standar Theme CSS*/
+
+/* Start CSS of  Head*/
+
+/* Start CSS of  Top Navigation*/
+
+nav {
+	width:100%;
+	height:42px;
+}
+nav a{
+	display:block;
+	line-height:42px;
+	text-decoration:none;
+	float:left;
+	padding:0px 10px 0px 10px;
+	color:white;
+	transition:all 0.4s;
+}
+nav a:hover{
+	text-decoration:none;
+	background-color: #f2f2f2;
+	
+}
+/* Start CSS of  Footer*/
+
+footer {
+	width:100%;
+}
+.footer-content {
+	width:100%;
+	height:100px;
+}
+footer .bottomimg  {
+	width:100%;
+	background-color:#333;
+	padding:5px;
+}
+footer .bottomimg a{
+	text-decoration:none;	
+	margin-left:5px;
+	border-left:1px solid white;
+	padding-left:5px;
+}
+footer .bottomimg a:first-of-type{
+	margin-left:0px;
+	border:none;
+}
+footer .bottomimg img {
+	height:34px;
+}
+/*****************************************/
+nav,footer{
+	
+	border:0px solid red;
+}
+/*****************************************/
+/* =========================================================================
+=========================================================================
+========================================================================= */
+
+/********** Home page Responsive  start **********/
+.userlogdv{
+
+	width:200px;
+	margin-right:20px;
+}
+
+.userimgel{
+
+	height:130px;
+}
+
+ @media (max-width:600px)
+{
+	.userlogdv{
+		margin-right:10px;
+		width:130px;
+	}
+	.userimgel{
+
+		height:100px;
+	}
+	.hdwhenres{
+
+		display: none;
+	}
+	.navrgwnrs{
+
+		float: right;
+	}
+
+} 
+@media (max-width:357px)
+{
+	.userimgel{
+
+        display: none;     } }
+
+
+#statepoint{     width: 20px;height:
+20px;position: absolute;cursor: pointer; } 
+
+
+#statepointdv{     border: 0px
+solid red;display:none;width: 200px;height: 70px; position: absolute;
+background-color: rgba(0,0,0,0.7);     border-radius: 5px;     padding: 2px; }
+
+
+#statepointdv p{     
+	font-size: 15px;     color: white;     text-align: left;
+} 
+
+
+#statepoint:hover #statepointdv{
+
+	display: block !important;
+}
+
+/********** Home page Responsive  End **********/
